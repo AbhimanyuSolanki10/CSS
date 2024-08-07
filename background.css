@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 500px;
+    width: 500px;
+    border: 1px solid;
+    background-image: url(./images/laptop_image.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*! contain :- focus on image and try to contain that image in that div */
+/* ! cover :- it will give priorty to div and cover the div first and if image goes out of div then its ok */
+/* ! by default image position is top */

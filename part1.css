@@ -1,0 +1,375 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* .heading{
+    color: aqua;
+} */
+/* div{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+} */
+/* section{
+    width: 50%;
+    height: 50%;
+    background-color: orange;
+} */
+
+
+/* div{
+    width: 50vw;
+    height: 15vh;
+    background-color: yellow;
+    font-size: 100pt;
+}
+p{
+    font-size: 1rem;
+}
+
+html{
+    font-size: 10px;
+} */
+
+/* div{
+    height: 300px;
+    background-color: red;
+    width: 50vmax;
+} */
+/* vmin it take reference from viewport height and width those which is minimum it will do camparision and give   */
+/* vmax it take reference from viewport height and width those which is maximum it will do camparision and give   */
+
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: inline-block;
+} */
+/* inline-block we can give the width and height to the element  */
+
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid;
+}
+main{
+
+    display: flex;
+} */
+
+/* nav{
+    width: 100vw;
+    height: 15vh;
+    background-color: orange;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.mainDiv{
+    display: flex;
+}
+aside{
+    width: 30vw;
+    height: 65vh;
+    background-color: green;
+    display:inline-block;
+}
+main{
+    width: 70vw;
+    height: 65vh;
+    background-color:yellow;  
+}
+
+footer{
+    height: 20vh;
+    width: 100vw;
+    background-color: red;
+} */
+
+
+
+/* span{
+    background-color: red;
+    padding: 10px;
+    border: 1px solid;
+    margin: 30px;
+
+} */
+
+/* border is the space btw the padding and margin */
+/* space btw content and border is called padding */
+
+/* div{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border: 4px solid;
+    padding: 30px;
+}
+section{
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    border: 1px solid;
+} */
+/* boxzzing border box restrict the padding  */
+/* SELECTORS */
+/* ! there are 5 types of selector  */
+/* ! 1 :- Simple Selectors
+! 1:- :id  (#)
+! 2:-class (.)
+! 3:-tagName 
+! 4:-universal (*) */
+/*!5:-Grouping (,) */ */
+
+/* ! 2:-Combinator Selectors
+!1:- Adjecent sibling  (+)
+!2:- General Sibling   (~)
+!3:- Descendent Selector (space)
+!4:- Child Selector (parent>child) */
+
+
+/* div p{
+    color: orange;
+}
+div>p{
+    color: blue;
+}
+main>h3{
+    color: red;
+}
+article>p{
+    background-color: olive;
+} */
+
+/* h1+p{
+    color: red;
+}
+h1~p{
+    color: red;
+} */
+
+/* sudoclass selector  */
+ /* p{
+    display: none;
+ } */
+
+/* ! 3:-sudo class selector means : */
+
+
+/* button:hover+p{
+    color: red;
+    background-color: black;
+    display: block;
+    width: 100px;
+
+} */
+/* 
+a:visited{
+    color: rgb(8, 226, 22);
+    font-size: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+p:active{
+    color: red;
+}
+p:visited{
+    background-color: green;
+} */
+
+/* tr:nth-child(odd){
+background-color:salmon
+}
+tr:nth-child(even){
+background-color: gray;
+}
+td{
+   padding: 20px; 
+} */
+
+/* input:required{
+    
+}
+sup{
+    color: red;
+} */
+ /*! 4:- pseudo element selector  means :: */
+
+ /* section>p::first-letter{
+    font-size: 100px;
+    color: red;
+ } */
+ /* p::before{
+    content:"some content";
+ }
+ p::after{
+    content:"some content";
+    background-color: red;
+ } */
+
+
+ /* section{
+    padding: 20px;
+ }
+ li::marker{
+    content: "🔥";
+ } */
+
+ /*! 5:-attribute selector */
+ 
+/* [title]{
+    background-color: red;
+} */
+/* [title="im tinku"]{
+    background-color: green;
+} */
+/* !   ^it check value start with i */
+/* [title^="i"]{
+    background-color: rgb(102, 0, 255);
+
+} */
+/*!   $it check value ends with i */
+/* [title$="i"]{
+    background-color: rgb(102, 0, 255);
+
+} */
+/*!   (|) pipe will check full title value which is seprated by hifin(-) */
+/* [title|="im"]{
+    background-color: rgb(193, 25, 148);
+
+} */
+/*!   *  atributen  pattern matches it will apply css  */
+/* [title*="a"]{
+    background-color: rgb(25, 171, 193); */
+    
+    /*!   ~  tilt atribute  pattern matches or match particular complete word  seprated by space it will apply css  */
+/* [title~="tinku"]{
+    background-color: rgb(176, 193, 25);
+
+} */
+/*! 140 predefine color names in css */
+/* div{
+    height: 100px;
+    width: 100px;
+    border: 3px solid; */
+    /* background:rosybrown; */
+      /* background-color: rgb(255, 255, ) */
+    /* background-color: #f00; */
+    /* !degree represent the hue ,  saturation and lightness  comes with the use of % and use for intensity of color*/
+    /* background-color: hsla(,50%,20%); */
+    /* ! a is alpha which is used for transparency  */
+    /* background-color: rgba(255, 0, 0, 0.5); */
+    /* position: absolute;
+    top: 0; */
+
+
+/* !POSITION */
+/*! THERE ARE 5 TYPES OF POSITION
+1:- STATIC (default )
+2:-FIXED
+3:-STICKY  
+4:-ABSOLUTE
+5:-RELAVTIVE */
+
+/* a{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: fixed;
+    top: 640px;
+    right: 10px;
+    left: 0;
+} */
+
+/* div{
+    height: 10vh;
+    width: 100vw;
+    background-color: red;
+    position: fixed;
+} */
+
+/*! Absolute will take the reference form the nearest positioned parent and if it is not available then form body */
+
+/* ! Relative will always take the reference from parent  */
+/* 
+div{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    position:absolute;
+} */
+
+/* section{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+} */
+
+/* main{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+} */
+
+/*! whenerver we give absolute postion to any child so give relative to parent it is recommended */
+
+/* it is compulsory to have position property to use z-index  */
+
+
+/* !background property  */
+div{
+    background-color: red;
+    height: 500px;
+    width: 500px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

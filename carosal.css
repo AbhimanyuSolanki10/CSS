@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+div{
+    background-color: red;
+    height: 50vh;
+    width: 100vw;
+    position: relative;
+    border: 1px solid;
+    display: flex;
+    overflow:auto;
+
+}
+section{
+    position: relative;
+
+    min-width: 30vw;
+    height:90% ;
+    background-color: green;
+    border: 5px solid;
+    
+    
+}
+h1{
+    font-size: 18pc;
+    text-shadow: 10px 10px 10px yellow;
+    
+}
+h1:hover{
+    text-shadow: 1+px 10px 20px gray;
+}

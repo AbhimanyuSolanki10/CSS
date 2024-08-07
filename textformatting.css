@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    /* text-wrap: nowrap; */
+    /* text-wrap: wrap; */
+    /* font-size:2em; // 
+    !it is 32 px  which is 200% of parent element */
+    /* font-size:2rem; */
+    /* ! it is 100% of the root element   */
+    /* font-size: 5vw;  */
+    /* !responsive font size */
+    /* font-weight: 550; */
+    /* ! It is most recommended to use  to bold the text */
+    /* font-style: oblique; */
+    /* font-style: italic; */
+    /* ! It is most recommended to use  to italic the text */
+    
+    /* !font-family: we have main 5 categories;
+    ?1:- Serif :- which having stroke
+    ?2:-Sans-serif :- sans means without and serif means strong it is mostly use and user readable
+    ?3:-Monospace :- Each individual character  having same width. 
+    ?4:-fantasy :- Unique or cartoon type ,also use for creating logos sometime
+    ?5:-cursive :- It will represent hand written font    */
+
+    /* font-family: sans-serif; */
+    /* font-family: monospace; */
+    /* font-family: cursive; */
+    /* font-family: fantasy; */
+    /* font-family: 'Courie', Couer, monospace; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    
+    /* !Google fonts */
+        /* ?1: Open-sans
+        ?2: Popins
+        ?3: Roboto
+        ?4: Noto sans */
+    /* ! , is used to give alternative font like when first one is not working then second font used and it is called as fallback font  and  try to give last font as sans-serif*/
+    /* font-family: 'Times New Roma', fntasy, cursive; */
+}
+div{
+    font-family: monospace;
+}
+
+/* p{
+    text-decoration:overline;
+     text-decoration:line-through; 
+     text-decoration-color: red; 
+     text-decoration-style: dashed; 
+    text-decoration-thickness: 5px; 
+     text-transform: capitalize;
+     width: 200px;
+    height: 200px;
+    border: 1px solid; 
+     overflow-y: scroll; 
+     overflow-x: scroll; 
+     overflow: auto; 
+     overflow: hidden; 
+} */
+
+/* !We have 3 types of gradient */
+div{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid;
+    /* !linear gradiant */
+    /* background-image: linear-gradient(to left bottom,red,white); */
+    /* !Radial  gradiant */
+    /* background-image: radial-gradient(green,orange); */
+    /* !Conic  gradiant */
+    /* background-image: repeating-radial-gradient(black 40px,white 80px ); */
+/* h1{
+    font-size: 180px;
+    color: white;
+    padding-top: 280px;
+} */
+
+

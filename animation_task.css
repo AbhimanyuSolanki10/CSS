@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+/* section{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    margin: 150px;
+}
+div{
+    font-size: 50px;
+    animation-name: rocket;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rocket {
+    0%{
+    }25%{
+    
+        transform: translate(350px);
+                
+    }
+    50%{
+        transform: translate(350px,350px);
+        
+    }75%{
+        transform: translate(0px,350px);
+        
+    }100%{
+        transform: translate();
+
+    }
+} */
+
+
+/* div{
+    height: 100px;
+    width: 100px;
+    border-top: 10px solid red;
+    border-left: 10px solid red;
+    border-radius: 50%;
+    animation-name: loader;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+
+}
+
+@keyframes loader {
+    from{}
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+
+/* div{
+    width: 200px;
+    height: 200px;
+    animation-name: bg;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+ @keyframes bg {
+    from{}
+    to{
+        background-color: red;
+    }
+ } */
+
+main{
+    
+}

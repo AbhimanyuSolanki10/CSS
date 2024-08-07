@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 15vh;
+}
+
+.fonts{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.fb{
+    font-size: 30px;
+    background-color: white;
+    
+}
